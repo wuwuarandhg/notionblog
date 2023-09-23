@@ -9,7 +9,7 @@
 
 
 
-#fastgpt-chatbot-button {
+#fastgpt-chatbot-button{
   position: fixed;
   bottom: 1rem;
   right: 3rem !important; /* 使用 !important 来确保优先级最高 */
@@ -19,6 +19,7 @@
   z-index: 2147483647;
   transform: translate3d(-42px, -31px, 0px);
 }
-#iframe.allowfullscreen {
-  right: 3rem !important; /* 使用 !important 来确保优先级最高 */
+#iframe#fastgpt-chatbot-window {
+ right: 3rem !important; /* 使用 !important 来确保优先级最高 */
 }
+
